@@ -2,6 +2,8 @@ title: "Joël's Blog"
 theme: minima
 author: "Joël Fehr"
 github_username: "jf-11"
+minima:
+    skin:dark
 
 # Disqus Comments
 disqus:
