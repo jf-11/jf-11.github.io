@@ -1,6 +1,6 @@
 ---
-title: Welcome to my blog
+title: Artificial Intelligence Seminar
 ---
 
-This is a test.
+Welcome to my blog for the ZHAW module Artificial Intelligence Seminar.
 
