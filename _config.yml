@@ -1,5 +1,7 @@
 title: "Joël's Blog"
-theme: minima
+remote_theme: jekyll/minima
+minima:
+  skin: dark
 author: "Joël Fehr"
 github_username: "jf-11"
 
