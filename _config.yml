@@ -2,6 +2,8 @@ title: "Joël's Blog"
 remote_theme: jekyll/minima
 minima:
   skin: dark
+  social_links:
+    - { platform: github, user_url: "https://github.com/jf-11" }
 author: "Joël Fehr"
 github_username: "jf-11"
 
