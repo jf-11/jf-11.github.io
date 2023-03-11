@@ -1,7 +1,5 @@
 ---
-title: Artificial Intelligence Seminar 🤖 
+title: <span style="color:#c71585">Artificial Intelligence Seminar</span> 🤖 
 ---
-
-Welcome to my blog for the ZHAW module Artificial Intelligence Seminar.
-<span style="color:blue">some *blue* text</span>
+<span style="color:#c71585">Welcome to my blog for the ZHAW module Artificial Intelligence Seminar.</span>
 
