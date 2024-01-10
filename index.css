@@ -29,13 +29,16 @@
     box-sizing: border-box;
 }
 
-html, body {
-    text-rendering: geometricPrecision;
-}
-
 body {
     background-color: var(--primary-bg);
     color: var(--primary-text);
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    -webkit-text-stroke-width: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 300;
     font-style: normal;
