@@ -35,7 +35,8 @@ body {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 300;
     font-style: normal;
-    -webkit-font-smoothing: antialiased !important;
+    -webkit-font-smoothing: subpixel-antialiased !important; 
+    text-rendering:optimizeLegibility !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
