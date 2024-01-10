@@ -33,16 +33,12 @@ body {
     background-color: var(--primary-bg);
     color: var(--primary-text);
     font-family: 'Noto Sans', sans-serif;
-    font-weight: 300;
+    font-weight: normal;
     font-style: normal;
-    -webkit-font-smoothing: subpixel-antialiased !important; 
-    text-rendering:optimizeLegibility !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 300;
-    font-style: normal;
+    font-weight: normal;
 }
 
 a {
