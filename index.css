@@ -29,13 +29,16 @@
     box-sizing: border-box;
 }
 
+html, body {
+    text-rendering: optimizeLegibility;
+}
+
 body {
     background-color: var(--primary-bg);
     color: var(--primary-text);
     font-family: 'Noto Sans', sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-synthesis: none
 }
 
 a {
