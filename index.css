@@ -34,6 +34,11 @@ body {
     color: var(--primary-text);
     font-family: 'Noto Sans', sans-serif;
     font-weight: normal;
+    font-style: normal;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-weight: normal;
 }
 
 a {
@@ -296,8 +301,4 @@ p {
 
 .bio-text {
     margin-left: 20px;
-}
-
-.llama-care-video {
-    width: 65%;
 }
