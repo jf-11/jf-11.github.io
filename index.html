@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="computer science, machine learning, artificial Intelligence">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--TITLE-->
+    <link rel="icon" href="./assets/bitmoji-icon.png">
+    <title>Joël Fehr</title> 
+
+    <!--LINKS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+
+
+<body>
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <i class="fas fa-moon theme-icon" id="moon-icon"></i>
+            <input type="checkbox" id="checkbox" class="theme-toggle-checkbox" />
+            <div class="slider round"></div>
+            <i class="fas fa-sun theme-icon" id="sun-icon"></i>
+        </label>
+    </div>
+
+    <div class="container">
+            <div class="bitmoji">
+                <img src="./assets/bitmoji.png">
+            </div>
+            <h1>Joël Fehr</h1>
+            <div class="icon-holder">
+                <!--MAIL-->
+                <a href="mailto:joel.fehr@bluewin.ch" class="icon-link">
+                    <i class="fa fa-envelope"></i>
+                </a>
+                <!--LINKEDIN-->
+                <a href="https://www.linkedin.com/in/joël-fehr-19368b210" class="icon-link" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <!--X-->
+                <a href="https://twitter.com/fejo_11" class="icon-link" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <!--GITHUB-->
+                <a href="https://github.com/jf-11" class="icon-link" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            
+            <div class="information-container">
+                <div >
+                    <span>MSc. Computer Science</span>
+                </div>
+
+                <div>
+                    <span>ZHAW Zurich University of Applied Sciences</span>
+                </div>
+
+                <div>
+                    <span><a href="https://www.zhaw.ch/en/engineering/institutes-centres/cai/" target="_blank">Centre for Artificial Intelligence</a></span>
+                </div>
+            </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="container">
+        <h1>Biography</h1>
+        <div class="biography-container">
+
+            <!--KSA-->
+            <div class="bio-element">
+                <img src="assets/ksa-logo.png" alt="Project 1 Image" class="bio-image">
+                <div class="bio-text">
+                    <h3>Aarau Cantonal Hospital</h3>
+                    <h4>Master Thesis</h4>
+                    <h4>Feb. 2024 - present</h4>
+                    <p>Anonymization pipeline for medical data utilizing Large Language Models.</p>
+                </div>
+            </div>
+
+            <!--ZHAW-->
+            <div class="bio-element">
+                <img src="assets/zhaw.png" alt="Project 1 Image" class="bio-image">
+                <div class="bio-text">
+                    <h3>Zurich University of Applied Sciences</h3>
+                    <h4>MSc. Computer Science @Centre for Artificial Intelligence</h4>
+                    <h4>Feb. 2023 - present</h4>
+                    <p>GPA: - / 6.0</p>
+                </div>
+            </div>
+
+            <!--UZH INTERN-->
+            <div class="bio-element">
+                <img src="assets/uzh.png" alt="Project 1 Image" class="bio-image">
+                <div class="bio-text">
+                    <h3>Intern</h3>
+                    <h4>Institute of Forensic Medicine</h4>
+                    <h4>Jan. 2023 - present</h4>
+                    <p>Automated segmentation of abdominal organs in 3D CT data.</p>
+                </div>
+            </div>
+
+            <!--UZH MATH-->
+            <div class="bio-element">
+                <img src="assets/uzh.png" alt="Project 1 Image" class="bio-image">
+                <div class="bio-text">
+                    <h3>Tutor Correction MAT182/ MAT183</h3>
+                    <h4>Institute of Mathematics</h4>
+                    <h4>Sept. 2021 - June 2022</h4>
+                    <p>Weekly correction and grading of student exercises.</p>
+                </div>
+            </div>
+
+            <!--UZH BACHELOR-->
+            <div class="bio-element">
+                <img src="assets/uzh.png" alt="Project 1 Image" class="bio-image">
+                <div class="bio-text">
+                    <h3>University of Zurich</h3>
+                    <h4>BSc. Biomedicine (Major) Applied Probability and Statistics (Minor)</h4>
+                    <h4>Sept. 2019 - Dec. 2022</h4>
+                    <p>GPA: 5.3 / 6.0</p>
+                </div>
+            </div>
+
+            <!--KS-->
+            <div class="bio-element">
+                <img src="assets/ks.png" alt="Project 1 Image" class="bio-image">
+                <div class="bio-text">
+                    <h3>K & S Rämibühl</h3>
+                    <h4>Swiss Matura</h4>
+                    <h4>Aug. 2013 - July 2018</h4>
+                    <p></p>
+                </div>
+            </div>
+
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="container">
+        <h1>Projects</h1>
+    
+        <div class="projects-container">
+
+            <!--LLAMA-CARE-->
+            <a href="pages/llama_care.html" class="project-link">
+                <div class="project-card">
+                    <img src="assets/llama_care.jpg" alt="Project 1 Image" class="project-image">
+                    <h3>LLaMA-Care, A Multimodal Medical Large Language Model for
+                        Discharge Instructions Generation</h3>
+                </div>
+            </a>
+    
+            <!--PMCT-->
+            <a href="pages/pmct.html" class="project-link">
+                <div class="project-card">
+                    <img src="assets/pmct.png" alt="Project 2 Image" class="project-image">
+                    <h3>Volumetric estimation of seven vital organs from postmortem computed tomography images using deep learning techniques</h3>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="divider"></div>
+</body>
+</html>
