@@ -1,11 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var userAgent = navigator.userAgent;
-    if (userAgent.includes("Safari") && !userAgent.includes("Chrome")) {
-        document.body.style.webkitTextStroke = "thin";
-    }
-});
-
-document.addEventListener("DOMContentLoaded", function() {
     const checkbox = document.getElementById("checkbox");
     const body = document.body;
     const moonIcon = document.getElementById("moon-icon");

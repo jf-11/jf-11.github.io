@@ -35,6 +35,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 300;
     font-style: normal;
+    font-synthesis: none
 }
 
 a {
