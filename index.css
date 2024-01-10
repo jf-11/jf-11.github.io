@@ -30,7 +30,7 @@
 }
 
 html, body {
-    text-rendering: optimizeLegibility;
+    text-rendering: geometricPrecision;
 }
 
 body {
