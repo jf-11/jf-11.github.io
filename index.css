@@ -303,3 +303,13 @@ p {
 .bio-text {
     margin-left: 20px;
 }
+
+.llama-care-video {
+    width: 65%;
+}
+
+@media screen and (max-width: 600px) {
+    .llama-care-video {
+        width: 90%;
+    }
+}
