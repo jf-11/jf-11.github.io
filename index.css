@@ -313,3 +313,13 @@ p {
         width: 90%;
     }
 }
+
+.seg-cover-image {
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .seg-cover-image {
+        width: 75%;
+    }
+}
