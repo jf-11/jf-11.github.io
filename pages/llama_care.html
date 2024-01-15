@@ -74,14 +74,14 @@
             <p>This project introduces LLaMA-Care, a Multimodal Large Language Model 
                 (MM-LLM) designed for the automated generation of patient hospital discharge 
                 instructions. LLaMA-Care aims to leverage various data modalities such as text, 
-                images, time series data, and ICD codes, thereby enhancing the efficiency and 
+                images, time series data and ICD codes, thereby enhancing the efficiency and 
                 quality of discharge instruction generation. LLaMA-Care builds upon existing 
                 pre-trained encoders to create latent representations of different modalities, 
-                which are then further aligned with the LLM through Modality Bridges. 
+                which are further aligned with the LLM through Modality Bridges. 
                 The fine-tuning stage employs LoRA (Low-Rank Adaptation), ensuring efficient 
                 utilization of the existing model's strengths while adapting to the specific 
                 task in a time- and memory-efficient way. The model was evaluated against a 
-                baseline and a unimodal (text-only) model, using ROUGE scores and an LLM-based 
+                baseline and a unimodal (textual input only) model, using ROUGE scores and an LLM-based 
                 evaluation method focusing on factual accuracy, completeness, and style/clarity. 
                 The findings indicate that LLaMA-Care outperforms the baseline model and demonstrates 
                 an improvement over the unimodal approach. This improvement is more pronounced in 
