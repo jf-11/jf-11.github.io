@@ -273,6 +273,12 @@ p {
     font-size: 18px;
 }
 
+@media screen and (max-width: 600px) {
+    .text-container {
+        width: 80%;
+    }
+}
+
 .biography-container {
     display: flex;
     flex: 1;
