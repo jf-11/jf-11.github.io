@@ -221,7 +221,8 @@ p {
     flex: 1;
     max-width: 290px;
     border-radius: 8px;
-    padding: 16px;
+    padding-top: 3px;
+    padding-bottom: 13px;
     text-align: center;
 }
 
