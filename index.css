@@ -295,7 +295,7 @@ p {
 .bio-element {
     display: flex;
     flex-direction: row;
-    padding-top: 3px;
+    padding-top: 5px;
     padding-bottom: 20px;
     text-align: left;
     align-items: center;
