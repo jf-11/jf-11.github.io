@@ -213,16 +213,15 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
 }
 
 .project-card {
-    flex: 1 1 calc(50% - 20px);
+    flex: 1;
+    max-width: 290px;
     border-radius: 8px;
     padding: 16px;
-    margin: 10px;
-    box-sizing: border-box;
     text-align: center;
 }
 
@@ -230,6 +229,8 @@ p {
     text-decoration: none;
     color: inherit;
     display: block;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .project-image {
@@ -237,13 +238,6 @@ p {
     height: auto;
     border-radius: 25px;
     margin-bottom: 16px;
-}
-
-@media (max-width: 600px) {
-    .project-card {
-        flex: 1 1 100%;
-        max-width: 100%;
-    }
 }
 
 .link-container {
