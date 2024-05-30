@@ -213,6 +213,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     justify-content: center;
     width: 100%;
 }
@@ -323,11 +325,11 @@ p {
 }
 
 .cover-image {
-    width: 50%;
+    width: 65%;
 }
 
 @media screen and (max-width: 600px) {
-    .seg-cover-image {
-        width: 75%;
+    .cover-image {
+        width: 90%;
     }
 }
