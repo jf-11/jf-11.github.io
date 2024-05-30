@@ -63,13 +63,13 @@
 
     <div class="divider"></div>
     <div class="container">
-        <img src="../assets/routing_plot.pdf" class="cover-image">
+        <img src="../assets/routing_plot.png" class="cover-image">
         <!--<p>Graphic by:</p>-->
         <div class="divider"></div>
         <h2>About</h2>
         <br>
         <div class="text-container">
-            <p>In this analysis, I employed MistralAI's Mixtral 8x7B model to conduct a routing analysis based on Part-of-Speech (POS) tags. This approach diverged from the original paper where token categorization was determined by document context. The <a href="https://huggingface.co/datasets/teknium/openhermes">"openhermes"</a> dataset was utilized, focusing on the first 5,000 instructions. For each instruction in the dataset, I extracted the router logits for every token, mapping these tokens back to their corresponding words. Each word's contributing tokens were grouped, and the indices of the two routers with the highest probabilities were identified. Using the spaCy library, I determined the POS tags for these words, enabling the assignment of router indices to the corresponding POS categories. This analysis was conducted across three distinct layers of the model: the initial layer, a central layer, and the final layer. The distribution of router assignments across POS tags was visualized, highlighting deviations from the expected uniform distribution, represented by a red dashed line at the fraction 1/8.</p>
+            <p>In this analysis, I employed MistralAI's Mixtral 8x7B model to conduct a routing analysis based on Part-of-Speech (POS) tags. This approach diverged from the <a href="https://arxiv.org/abs/2401.04088" target="_blank">original paper</a> where token categorization was determined by document context. The <a href="https://huggingface.co/datasets/teknium/openhermes" target="_blank">"openhermes"</a> dataset was utilized, focusing on the first 5,000 instructions. For each of these instructions, I extracted the router logits for every token, mapping these tokens back to their corresponding words. Each word's contributing tokens were grouped, and the indices of the two routers with the highest probabilities were identified. Using the spaCy library, I determined the POS tags for these words, enabling the assignment of router indices to the corresponding POS categories. This analysis was conducted across three distinct layers of the model: the initial layer, a central layer, and the final layer. The distribution of router assignments across POS tags was visualized, highlighting deviations from the expected uniform distribution, represented by a red dashed line at the fraction 1/8.</p>
         </div>
         <div class="divider"></div>
     </div>
