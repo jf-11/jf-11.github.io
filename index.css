@@ -216,7 +216,7 @@ p {
     justify-content: center;
     width: 100%;
     max-width: 600px;
-    gap: 30px;
+    gap: 10px;
 }
 
 .project-card {
