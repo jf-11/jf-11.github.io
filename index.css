@@ -213,13 +213,13 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
 }
 
 .project-card {
     flex: 1 1 calc(50% - 20px);
-    max-width: 290px;
+    max-width: 290px; 
     border-radius: 8px;
     padding: 16px;
     margin: 10px;
