@@ -216,14 +216,13 @@ p {
     justify-content: center;
     width: 100%;
     max-width: 600px;
-    gap: 10px;
+    gap: 20px;
 }
 
 .project-card {
     flex: 1 1 calc(50% - 20px);
     max-width: 290px;
     border-radius: 8px;
-    padding: 16px;
     text-align: center;
     box-sizing: border-box;
 }
@@ -324,7 +323,7 @@ p {
 }
 
 .cover-image {
-    width: 65%;
+    width: 55%;
 }
 
 @media screen and (max-width: 600px) {
